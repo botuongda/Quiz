@@ -125,7 +125,7 @@ a#forkme_banner {
   width: 138px;
   height: 138px;
   display: block;
-  background: transparent url(../images/fork-sprite.png) 0 0 no-repeat;
+  background: transparent 0 0 no-repeat;
   text-indent: -9000px;
   z-index: 3;
 }
@@ -267,7 +267,7 @@ span.banner-fix {
   top: 19px;
 }
 
-section#main_content {
+section.main_content {
   z-index: 2;
   padding: 20px 82px 0;
   min-height:185px;
@@ -516,12 +516,12 @@ dd p:first-child {
 
 /* Content based headers */
 
-#main_content > .header-level-1:first-child,
-#main_content > .header-level-2:first-child,
-#main_content > .header-level-3:first-child,
-#main_content > .header-level-4:first-child,
-#main_content > .header-level-5:first-child,
-#main_content > .header-level-6:first-child {
+.main_content > .header-level-1:first-child,
+.main_content > .header-level-2:first-child,
+.main_content > .header-level-3:first-child,
+.main_content > .header-level-4:first-child,
+.main_content > .header-level-5:first-child,
+.main_content > .header-level-6:first-child {
   margin-top: 0;
 }
 
